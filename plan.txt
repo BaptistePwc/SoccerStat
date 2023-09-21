@@ -1,0 +1,59 @@
+
+my_etl_app/
+│
+├── config/
+│   ├── config.yaml
+│   └── logging.yaml
+│
+├── data/
+│   ├── input/
+│   │   ├── source_data_1.csv
+│   │   ├── source_data_2.json
+│   │   └── ...
+│   │
+│   ├── output/
+│   └── ...
+│
+├── etl/
+│   ├── extract.py
+│   ├── transform.py
+│   └── load.py
+│
+├── logs/
+│
+├── tests/
+│   ├── test_extract.py
+│   ├── test_transform.py
+│   └── test_load.py
+│
+├── utils/
+│   ├── helpers.py
+│   └── ...
+│
+├── main.py
+├── requirements.txt
+└── README.md
+
+
+Voici une explication des différents éléments de cette structure :
+
+    config/ : Ce répertoire contient les fichiers de configuration de votre application, tels que des fichiers YAML ou JSON pour définir des paramètres, des variables d'environnement, des connexions à des bases de données, etc.
+
+    data/ : Ce répertoire est utilisé pour stocker vos données d'entrée et de sortie. Les données d'entrée (sources de données brutes) sont généralement stockées dans le sous-répertoire "input/", tandis que les données transformées ou chargées peuvent être stockées dans le sous-répertoire "output/" ou d'autres répertoires pertinents.
+
+    etl/ : Ce répertoire contient les modules Python qui définissent les étapes d'extraction, de transformation et de chargement. Chaque étape (extract, transform, load) peut être implémentée dans un fichier Python séparé.
+
+    logs/ : Vous pouvez stocker les fichiers journaux générés par votre application ici.
+
+    tests/ : Dans ce répertoire, vous pouvez créer des tests unitaires pour chaque étape de votre pipeline ETL. Vous pouvez également utiliser des frameworks de test tels que pytest ou unittest.
+
+    utils/ : Vous pouvez stocker des modules utilitaires ou des fonctions réutilisables ici, comme des fonctions d'aide ou des fonctions de validation.
+
+    main.py : C'est le point d'entrée de votre application. Vous pouvez y importer les modules d'extraction, de transformation et de chargement, et exécuter votre pipeline ETL.
+
+    requirements.txt : Liste des dépendances Python nécessaires pour votre projet. Vous pouvez générer cette liste à l'aide de la commande pip freeze > requirements.txt.
+
+    README.md : Un fichier de documentation décrivant votre application, comment l'installer, l'utiliser et d'autres informations pertinentes.
+
+Cette structure de fichiers est un point de départ, et vous pouvez l'adapter en fonction des besoins spécifiques de votre projet ETL. L'objectif est de garder votre code organisé, de faciliter la maintenance et de rendre votre projet collaboratif.
+
