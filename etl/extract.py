@@ -81,114 +81,20 @@ class SportradarAPI:
 #api = SportradarAPI("soccer")
 SportradarAPI("soccer").call_api("competitions/sr:competition:7/info.json")
 
-'''
-#fonction d'appel à sportradar
-def appel_api_sportradar(token_name, endpoint):
-    # Vérifiez si le nom du token existe dans le dictionnaire
-    if token_name in tokens:
+#Fonction pour récuperer les matchs d'une équipe brievement résumés
 
-        if token_name == 'oddscomparison_futures':
-            base_url = f'https://api.sportradar.com/oddscomparison-futures/trial/v2/en/'
-        elif token_name == 'soccer_advanced_analytics':
-            base_url = f'https://api.sportradar.com/soccer-advanced-analytics/trial/v1/en/'
-        elif token_name == 'soccer_extended':
-            base_url = f'https://api.sportradar.com/soccer-extended/trial/v4/en/'
-        else:
-            base_url = f'https://api.sportradar.com/soccer/trial/v4/en/'
+def get_competitor_summary(urn_competitor):
+    # Remplacez 'your_api_key_here' par votre véritable clé d'API
 
-       
-        url = base_url + endpoint  # Utilisez l'endpoint passé en argument
+    api = SportradarAPI("soccer")
+    endpoint = f"competitors/{urn_competitor}/summaries.json"
+    api.call_api(endpoint)
 
-        # Dictionnaire d'en-têtes avec votre token
-        params = {
-            'api_key': tokens[token_name],
-        }
-
-        # Requête HTTP
-        response = requests.get(url, params=params)
-
-        # Vérifiez la réponse
-        if response.status_code == 200:
-            data = response.json()
-            print(data)
-        else:
-            print(f"Erreur : {response.status_code} from {base_url}")
-    else:
-        print(f"Le token {token_name} n'existe pas dans le dictionnaire.")
-
-# Exemple d'appel à la fonction en utilisant le nom du token et l'endpoint
-appel_api_sportradar("soccer", "competitions/sr:competition:7/info.json")
-'''
-
-'''
-#!exemple d'appels (1)
-if 'soccer-advanced-analytics' in tokens:
-
-    base_url = 'https://api.sportradar.com/soccer-advanced-analytics/trial/v1/en/'
-    endpoint = 'players/mappings.json?offset=0&start=5&limit=5'
-    url = base_url + endpoint
-
-    #dictionnaire d'en-têtes avec votre token
-    params = {
-        'api_key': tokens["soccer-advanced-analytics"],
-    }
-    #requête HTTP
-    response = requests.get(url, params=params)
-
-    # Vérifiez la réponse
-    if response.status_code == 200:
-        data = response.json()
-        # Traitez les données ici
-    else:
-        print(f"Erreur : {response.status_code}")
+# Exemple d'utilisation de la fonction pour obtenir les informations d'un concurrent
+urn_competitor = "sr:competitor:12345"  # Remplacez par l'URN du concurrent souhaité
+get_competitor_summary(urn_competitor)
 
 
-
-#!exemple d'appels (2)
-if 'oddscomparison-futures' in tokens:
-
-    base_url = 'https://api.sportradar.com/oddscomparison-futures/trial/v2/en/'
-    endpoint = 'books.json'
-    url = base_url + endpoint
-
-    #dictionnaire d'en-têtes avec votre token
-    params = {
-        'api_key': tokens["oddscomparison-futures"],
-    }
-    #requête HTTP
-    response = requests.get(url, params=params)
-
-    # Vérifiez la réponse
-    if response.status_code == 200:
-        data = response.json()
-        # Traitez les données ici
-    else:
-        print(f"Erreur : {response.status_code}")
-
-
-
-#!exemple d'appels (3)
-if 'soccer-extended' in tokens:
-
-    base_url = 'https://api.sportradar.com/soccer-extended/trial/v4/en/'
-    endpoint = 'players/sr:player:43247/profile.json'
-    url = base_url + endpoint
-
-    #dictionnaire d'en-têtes avec votre token
-    params = {
-        'api_key': tokens["soccer-extended"],
-    }
-    #requête HTTP
-    response = requests.get(url, params=params)
-
-    # Vérifiez la réponse
-    if response.status_code == 200:
-        data = response.json()
-        # Traitez les données ici
-    else:
-        print(f"Erreur : {response.status_code}")
-
-'''
 '''
 info LDC
 {'id': 'sr:competition:7', 'name': 'UEFA Champions League', 'gender': 'men', 'category': {'id': 'sr:category:393', 'name': 'International Clubs'}},
