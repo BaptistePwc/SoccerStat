@@ -1,0 +1,19 @@
+#token de connection à l'API football-data
+api_football-data:
+  token: 30b67a0528f64075929bd162bdfc574c
+
+#token de connection à l'API sportradar OddsComparison (valable jusqu'au 26/01/24)
+oddscomparison-futures:
+  token: b9gjxc4vahfs4ekyc4jhg7np
+
+#token de connection à l'API sportradar Soccer Advanced Analytics (valable jusqu'au 26/01/24)
+soccer-advanced-analytics:
+  token: jz526bdhghfzkck6tdksm26n
+
+#token de connection à l'API sportradar Soccer Extended (valable jusqu'au 26/01/24)
+soccer-extended:
+  token: sayxyvzcwuyejbfexne9pxka
+
+#token de connection à l'API sportradar Soccer (valable jusqu'au 26/01/24)
+soccer:
+  token: 98btzxe652z5tzjj59tc2b3s

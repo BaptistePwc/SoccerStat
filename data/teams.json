@@ -1,0 +1,473 @@
+{
+    "generated_at": "2023-10-12T09:06:51+00:00",
+    "season_competitors": [
+        {
+            "id": "sr:competitor:17",
+            "name": "Manchester City",
+            "short_name": "Man City",
+            "abbreviation": "MCI"
+        },
+        {
+            "id": "sr:competitor:35",
+            "name": "Manchester United",
+            "short_name": "Man Utd",
+            "abbreviation": "MUN"
+        },
+        {
+            "id": "sr:competitor:39",
+            "name": "Newcastle United",
+            "short_name": "Newcastle",
+            "abbreviation": "NEW"
+        },
+        {
+            "id": "sr:competitor:42",
+            "name": "Arsenal FC",
+            "short_name": "Arsenal",
+            "abbreviation": "ARS"
+        },
+        {
+            "id": "sr:competitor:661",
+            "name": "Molde FK",
+            "short_name": "Molde",
+            "abbreviation": "MFK"
+        },
+        {
+            "id": "sr:competitor:1284",
+            "name": "FC Copenhagen",
+            "short_name": "Copenhagen",
+            "abbreviation": "FCC"
+        },
+        {
+            "id": "sr:competitor:1641",
+            "name": "Olympique Marseille",
+            "short_name": "Marseille",
+            "abbreviation": "OM"
+        },
+        {
+            "id": "sr:competitor:1644",
+            "name": "Paris Saint-Germain",
+            "short_name": "PSG",
+            "abbreviation": "PSG"
+        },
+        {
+            "id": "sr:competitor:1648",
+            "name": "RC Lens",
+            "short_name": "Lens",
+            "abbreviation": "RCL"
+        },
+        {
+            "id": "sr:competitor:1760",
+            "name": "Hacken Gothenburg",
+            "short_name": "Hacken Gothenburg",
+            "abbreviation": "HAC"
+        },
+        {
+            "id": "sr:competitor:1901",
+            "name": "Breidablik Kopavogur",
+            "short_name": "Breidablik",
+            "abbreviation": "KOP"
+        },
+        {
+            "id": "sr:competitor:1925",
+            "name": "Ferencvarosi Budapest",
+            "short_name": "Ferencvarosi",
+            "abbreviation": "FTC"
+        },
+        {
+            "id": "sr:competitor:2032",
+            "name": "GNK Dinamo Zagreb",
+            "short_name": "Dinamo Zagreb",
+            "abbreviation": "DIN"
+        },
+        {
+            "id": "sr:competitor:2046",
+            "name": "FC Salzburg",
+            "short_name": "Salzburg",
+            "abbreviation": "RBS"
+        },
+        {
+            "id": "sr:competitor:2051",
+            "name": "SK Sturm Graz",
+            "short_name": "Sturm Graz",
+            "abbreviation": "STU"
+        },
+        {
+            "id": "sr:competitor:2218",
+            "name": "Sparta Prague",
+            "short_name": "Sparta Prague",
+            "abbreviation": "SPA"
+        },
+        {
+            "id": "sr:competitor:2242",
+            "name": "HJK Helsinki",
+            "short_name": "HJK",
+            "abbreviation": "HJK"
+        },
+        {
+            "id": "sr:competitor:2351",
+            "name": "Glasgow Rangers",
+            "short_name": "Rangers",
+            "abbreviation": "RFC"
+        },
+        {
+            "id": "sr:competitor:2352",
+            "name": "Celtic Glasgow",
+            "short_name": "Celtic",
+            "abbreviation": "CEL"
+        },
+        {
+            "id": "sr:competitor:2404",
+            "name": "SK Slovan Bratislava",
+            "short_name": "Slovan Bratislava",
+            "abbreviation": "SLO"
+        },
+        {
+            "id": "sr:competitor:2416",
+            "name": "Olimpija Ljubljana",
+            "short_name": "Olimpija Ljubljana",
+            "abbreviation": "OLI"
+        },
+        {
+            "id": "sr:competitor:2445",
+            "name": "Young Boys Bern",
+            "short_name": "Young Boys",
+            "abbreviation": "YB"
+        },
+        {
+            "id": "sr:competitor:2448",
+            "name": "Servette Geneva",
+            "short_name": "Servette Geneva",
+            "abbreviation": "SER"
+        },
+        {
+            "id": "sr:competitor:2547",
+            "name": "Union Berlin",
+            "short_name": "Union Berlin",
+            "abbreviation": "UNI"
+        },
+        {
+            "id": "sr:competitor:2672",
+            "name": "Bayern Munich",
+            "short_name": "B. Munich",
+            "abbreviation": "BMU"
+        },
+        {
+            "id": "sr:competitor:2673",
+            "name": "Borussia Dortmund",
+            "short_name": "Dortmund",
+            "abbreviation": "BVB"
+        },
+        {
+            "id": "sr:competitor:2692",
+            "name": "AC Milan",
+            "short_name": "Milan",
+            "abbreviation": "ACM"
+        },
+        {
+            "id": "sr:competitor:2697",
+            "name": "Inter Milano",
+            "short_name": "Inter",
+            "abbreviation": "INT"
+        },
+        {
+            "id": "sr:competitor:2699",
+            "name": "Lazio Rome",
+            "short_name": "Lazio",
+            "abbreviation": "LAZ"
+        },
+        {
+            "id": "sr:competitor:2714",
+            "name": "SSC Napoli",
+            "short_name": "Napoli",
+            "abbreviation": "NAP"
+        },
+        {
+            "id": "sr:competitor:2817",
+            "name": "FC Barcelona",
+            "short_name": "Barcelona",
+            "abbreviation": "FCB"
+        },
+        {
+            "id": "sr:competitor:2824",
+            "name": "Real Sociedad San Sebastian",
+            "short_name": "Real Sociedad",
+            "abbreviation": "RSO"
+        },
+        {
+            "id": "sr:competitor:2829",
+            "name": "Real Madrid",
+            "short_name": "Real Madrid",
+            "abbreviation": "RMA"
+        },
+        {
+            "id": "sr:competitor:2833",
+            "name": "Sevilla FC",
+            "short_name": "Sevilla",
+            "abbreviation": "SEV"
+        },
+        {
+            "id": "sr:competitor:2836",
+            "name": "Atletico Madrid",
+            "short_name": "Atletico",
+            "abbreviation": "ATM"
+        },
+        {
+            "id": "sr:competitor:2889",
+            "name": "Royal Antwerp FC",
+            "short_name": "Royal Antwerp",
+            "abbreviation": "RAFC"
+        },
+        {
+            "id": "sr:competitor:2890",
+            "name": "KRC Genk",
+            "short_name": "Genk",
+            "abbreviation": "GEN"
+        },
+        {
+            "id": "sr:competitor:2952",
+            "name": "PSV Eindhoven",
+            "short_name": "Eindhoven",
+            "abbreviation": "PSV"
+        },
+        {
+            "id": "sr:competitor:2959",
+            "name": "Feyenoord Rotterdam",
+            "short_name": "Feyenoord",
+            "abbreviation": "FEY"
+        },
+        {
+            "id": "sr:competitor:2999",
+            "name": "SC Braga",
+            "short_name": "Braga",
+            "abbreviation": "BRA"
+        },
+        {
+            "id": "sr:competitor:3002",
+            "name": "FC Porto",
+            "short_name": "Porto",
+            "abbreviation": "FCP"
+        },
+        {
+            "id": "sr:competitor:3006",
+            "name": "Benfica Lisbon",
+            "short_name": "Benfica Lisbon",
+            "abbreviation": "BEN"
+        },
+        {
+            "id": "sr:competitor:3061",
+            "name": "Galatasaray Istanbul",
+            "short_name": "Galatasaray",
+            "abbreviation": "GAL"
+        },
+        {
+            "id": "sr:competitor:3177",
+            "name": "Shamrock Rovers",
+            "short_name": "Shamrock",
+            "abbreviation": "SHA"
+        },
+        {
+            "id": "sr:competitor:3248",
+            "name": "Panathinaikos Athens",
+            "short_name": "Panathinaikos",
+            "abbreviation": "PAN"
+        },
+        {
+            "id": "sr:competitor:3250",
+            "name": "AEK Athens",
+            "short_name": "AEK Athens",
+            "abbreviation": "AEK"
+        },
+        {
+            "id": "sr:competitor:3294",
+            "name": "FC Farul Constanta",
+            "short_name": "Farul Constanta",
+            "abbreviation": "FAR"
+        },
+        {
+            "id": "sr:competitor:3313",
+            "name": "FC Shakhtar Donetsk",
+            "short_name": "Shakhtar",
+            "abbreviation": "SHA"
+        },
+        {
+            "id": "sr:competitor:3346",
+            "name": "Flora Tallinn",
+            "short_name": "Flora Tallinn",
+            "abbreviation": "FLO"
+        },
+        {
+            "id": "sr:competitor:3350",
+            "name": "Bate Borisov",
+            "short_name": "Bate Borisov",
+            "abbreviation": "BAT"
+        },
+        {
+            "id": "sr:competitor:3397",
+            "name": "Aris Limassol FC",
+            "short_name": "Aris Limassol",
+            "abbreviation": "ALI"
+        },
+        {
+            "id": "sr:competitor:4921",
+            "name": "The New Saints FC",
+            "short_name": "New Saints",
+            "abbreviation": "TNS"
+        },
+        {
+            "id": "sr:competitor:5143",
+            "name": "FK Buducnost",
+            "short_name": "Buducnost",
+            "abbreviation": "BUD"
+        },
+        {
+            "id": "sr:competitor:5149",
+            "name": "FK Crvena Zvezda Belgrade",
+            "short_name": "Crvena Zvezda",
+            "abbreviation": "CRZ"
+        },
+        {
+            "id": "sr:competitor:5171",
+            "name": "FC Dinamo Tbilisi",
+            "short_name": "Dinamo Tbilisi",
+            "abbreviation": "TBI"
+        },
+        {
+            "id": "sr:competitor:5173",
+            "name": "FC Sheriff Tiraspol",
+            "short_name": "Tiraspol",
+            "abbreviation": "SHF"
+        },
+        {
+            "id": "sr:competitor:5178",
+            "name": "HSK Zrinjski Mostar",
+            "short_name": "Zrinjski Mostar",
+            "abbreviation": "ZRI"
+        },
+        {
+            "id": "sr:competitor:5184",
+            "name": "Larne FC",
+            "short_name": "Larne",
+            "abbreviation": "LAM"
+        },
+        {
+            "id": "sr:competitor:5194",
+            "name": "KI Klaksvik",
+            "short_name": "Klaksvik",
+            "abbreviation": "KI"
+        },
+        {
+            "id": "sr:competitor:5197",
+            "name": "Maccabi Haifa FC",
+            "short_name": "Maccabi Haifa",
+            "abbreviation": "MAH"
+        },
+        {
+            "id": "sr:competitor:5222",
+            "name": "Partizani Tirana",
+            "short_name": "Partizani Tirana",
+            "abbreviation": "PTI"
+        },
+        {
+            "id": "sr:competitor:5225",
+            "name": "FC Urartu Yerevan",
+            "short_name": "Urartu Yerevan",
+            "abbreviation": "URA"
+        },
+        {
+            "id": "sr:competitor:5345",
+            "name": "Vilnius FK Zalgiris",
+            "short_name": "Zalgiris Vilnius",
+            "abbreviation": "ZAL"
+        },
+        {
+            "id": "sr:competitor:5353",
+            "name": "Valmiera FC",
+            "short_name": "Valmiera",
+            "abbreviation": "VAL"
+        },
+        {
+            "id": "sr:competitor:5382",
+            "name": "Swift Hesperange",
+            "short_name": "Hesperange",
+            "abbreviation": "HES"
+        },
+        {
+            "id": "sr:competitor:5962",
+            "name": "Qarabag FK",
+            "short_name": "Qarabag",
+            "abbreviation": "QAR"
+        },
+        {
+            "id": "sr:competitor:33583",
+            "name": "Hamrun Spartans FC",
+            "short_name": "Spartans",
+            "abbreviation": "HAM"
+        },
+        {
+            "id": "sr:competitor:35268",
+            "name": "RKS Rakow Czestochowa",
+            "short_name": "Czestochowa",
+            "abbreviation": "CZE"
+        },
+        {
+            "id": "sr:competitor:36155",
+            "name": "FC Astana",
+            "short_name": "Astana",
+            "abbreviation": "FCA"
+        },
+        {
+            "id": "sr:competitor:36360",
+            "name": "RB Leipzig",
+            "short_name": "Leipzig",
+            "abbreviation": "RBL"
+        },
+        {
+            "id": "sr:competitor:37862",
+            "name": "Tre Penne",
+            "short_name": "Tre Penne",
+            "abbreviation": "TRP"
+        },
+        {
+            "id": "sr:competitor:37962",
+            "name": "Atletic Club d'Escaldes",
+            "short_name": "Atletic Club",
+            "abbreviation": "ATL"
+        },
+        {
+            "id": "sr:competitor:43840",
+            "name": "PFC Ludogorets 1945 Razgrad",
+            "short_name": "Ludogorets",
+            "abbreviation": "LUD"
+        },
+        {
+            "id": "sr:competitor:126304",
+            "name": "Lincoln Red Imps",
+            "short_name": "Lincoln Red Imps",
+            "abbreviation": "LIN"
+        },
+        {
+            "id": "sr:competitor:280003",
+            "name": "FC Ballkani",
+            "short_name": "Ballkani",
+            "abbreviation": "BAL"
+        },
+        {
+            "id": "sr:competitor:299146",
+            "name": "FC Struga Trim Lum",
+            "short_name": "Struga Trim Lum",
+            "abbreviation": "STL"
+        },
+        {
+            "id": "sr:competitor:350824",
+            "name": "SC Dnipro-1",
+            "short_name": "Dnipro-1",
+            "abbreviation": "SCD"
+        },
+        {
+            "id": "sr:competitor:368638",
+            "name": "FK TSC Backa Topola",
+            "short_name": "TSC Backa Topola",
+            "abbreviation": "BAC"
+        }
+    ]
+}
